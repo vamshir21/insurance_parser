@@ -1,1 +1,15 @@
-null
+{
+  "metadata": {
+    "insurance_type": "MOTOR",
+    "insured_name": "Vaneshwari L"
+  },
+  "financials": {
+    "vehicle_idv": 31707,
+    "total_premium": 3862,
+    "deductible": 100,
+    "tax": 588
+  },
+  "policy": {
+    "policy_term": "1 year"
+  }
+}

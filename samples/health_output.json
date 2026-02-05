@@ -1,1 +1,15 @@
-null
+{
+  "metadata": {
+    "insurer_name": "Hdfc Ergo General Insurance Company Limited",
+    "insurance_type": "HEALTH"
+  },
+  "financials": {
+    "base_premium": 44304,
+    "total_premium": 51123,
+    "tax": 9823,
+    "sum_insured": 300000
+  },
+  "policy": {
+    "policy_term": "1 year"
+  }
+}

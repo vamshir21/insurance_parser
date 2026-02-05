@@ -144,12 +144,15 @@ def parse(clean_path: str):
 # Runner
 # -------------------------
 if __name__ == "__main__":
+    motor_result = parse("samples/motor_clean.txt")
+    health_result = parse("samples/health_clean.txt")
+
     print("MOTOR JSON")
-    motor_result = print(json.dumps(parse("samples/motor_clean.txt"), indent=2))
+    print(json.dumps(motor_result, indent=2))
 
     print("\nHEALTH JSON")
-    health_result=print(json.dumps(parse("samples/health_clean.txt"), indent=2))
-    
+    print(json.dumps(health_result, indent=2))
+
     with open("samples/motor_output.json", "w", encoding="utf-8") as f:
         json.dump(motor_result, f, indent=2)
 
